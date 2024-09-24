@@ -33,12 +33,12 @@ export const PasswordInput: FC<PasswordInputProps> = (props) => {
         {type === "password" ? <EyeSlashIcon /> : <EyeIcon />}
       </button>
       <img
-        src="/error.svg"
+        src="/test-task-marmend/error.svg"
         className="hidden peer-invalid:block w-4 h-4 absolute end-0 inset-y-0 mr-9 mt-[10px]"
       />
       {props.value.length > 0 && (
         <img
-          src="/success.svg"
+          src="/test-task-marmend/success.svg"
           className="invisible peer-valid:visible w-4 h-4 absolute end-0 inset-y-0 mr-9 mt-[10px]"
         />
       )}

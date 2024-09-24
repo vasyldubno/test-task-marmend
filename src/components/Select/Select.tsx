@@ -37,7 +37,7 @@ export const Select: FC<SelectProps> = ({ options }) => {
             {selected ? selected.content : "Choose language"}
           </p>
           <img
-            src="/chevron-down.svg"
+            src="/test-task-marmend/chevron-down.svg"
             className={clsx("w-4 h-4 transition-transform duration-500", {
               "-rotate-180": isShowDropdown,
             })}

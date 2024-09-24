@@ -13,7 +13,7 @@ export const Input: FC<InputProps> = ({ onClear, ...props }) => {
         {...props}
       />
       <img
-        src="/error.svg"
+        src="/test-task-marmend/error.svg"
         className="hidden peer-invalid:block w-4 h-4 absolute end-0 inset-y-0 mr-3 mt-[10px]"
       />
       {props.value.length > 0 && (
@@ -21,7 +21,7 @@ export const Input: FC<InputProps> = ({ onClear, ...props }) => {
           className="hidden peer-valid:block w-4 h-4 absolute end-0 inset-y-0 mr-3 mt-[10px]"
           onClick={onClear}
         >
-          <img src="/x-mark.svg" />
+          <img src="/test-task-marmend/x-mark.svg" />
         </button>
       )}
       <p className="hidden peer-invalid:block text-red-red text-xs leading-5">

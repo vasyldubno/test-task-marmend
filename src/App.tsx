@@ -29,7 +29,7 @@ export const App = () => {
         >
           <p className="text-main-secondary text-base font-medium">Settings</p>
           <img
-            src="/chevron-down.svg"
+            src="/test-task-marmend/chevron-down.svg"
             className={clsx(
               "transition-transform duration-500",
               isOpenModal ? "rotate-0" : "-rotate-180"
@@ -48,7 +48,7 @@ export const App = () => {
               </p>
             </div>
             <div className="flex gap-4">
-              <img src="/avatar.png" className="w-20" />
+              <img src="/test-task-marmend/avatar.png" className="w-20 h-20" />
               <div className="w-48 flex flex-col gap-2">
                 <Button variant="secondary">Change photo</Button>
                 <Button variant="delete">Delete</Button>
