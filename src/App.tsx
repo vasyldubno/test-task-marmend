@@ -37,7 +37,7 @@ export const App = () => {
           />
         </button>
         {isOpenModal && (
-          <div className="bg-main-white rounded-2xl p-8 mt-2 w-[500px] m-auto flex flex-col gap-6">
+          <div className="bg-main-white rounded-2xl p-8 mt-2 max-w-[500px] m-auto flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <p className="text-main-secondary text-xl font-semibold">
                 Profile settings
